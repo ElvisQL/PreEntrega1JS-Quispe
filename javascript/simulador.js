@@ -4,14 +4,6 @@ function MostrarMenu(opcion){
     return opcion
 }
 
-function IngresarAlumno(alumno, notas){
-    while (seguir_notas) {
-
-    }
-    let nota = prompt("Asignele una nota al alumno")
-}
-
-
 function SeguirIngresando(){
     let seguir = prompt("Desea seguir ingresando alumnos? s/n")
     return seguir === "s"
